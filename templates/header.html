@@ -102,7 +102,7 @@
 	    {% endblock %}
         </ul>
       </nav>
-      <!-- {% endblock %} {% block header_site_search %}
+      {% endblock %} {% block header_site_search %}
       <form class="section site-search simple-input" action="{% url_for 'dataset.search' %}" method="get">
         <div class="field">
           <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
@@ -110,7 +110,7 @@
           <button class="btn-search" type="submit" aria-label="{{ _('Submit') }}"><i class="fa fa-search"></i></button>
         </div>
       </form>
-      {% endblock %} -->
+      {% endblock %}
     </div>
   </div>
 </header>
