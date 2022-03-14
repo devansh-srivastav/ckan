@@ -1679,8 +1679,7 @@ pre code {
 .col-xs-8,
 .col-xs-9,
 .col-xs-10,
-.col-xs-11,
-.col-xs-12 {
+.col-xs-11{
   float: left;
 }
 .col-xs-12 {
@@ -7621,9 +7620,9 @@ textarea {
   width: 100%;
 }
 .control-large input {
-  height: 46px;
+  /* height: 46px; */
   padding: 10px 16px;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -7636,7 +7635,7 @@ select[multiple].control-large input {
   height: auto;
 }
 .control-large .control-label {
-  font-size: 18px;
+  font-size: 14px;
 }
 .control-required {
   color: #c6898b;
@@ -7673,7 +7672,7 @@ select[multiple].control-large input {
 }
 .form-actions .action-info.small {
   font-size: 11px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 @media (max-width: 991px) {
   .form-actions .btn {
@@ -7789,8 +7788,8 @@ select[data-module="autocomplete"] {
   color: #000;
 }
 .editor textarea {
-  border-radius: 3px 3px 0 0;
-  border-bottom: none;
+  border-radius: 3px;
+  /* border-bottom: none; */
 }
 .editor .editor-info-block {
   border-radius: 0 0 3px 3px;
@@ -9449,9 +9448,9 @@ h4 small {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
-    width: 25%;
-    border-right: 1px solid #ddd;
+    right : 0;
+    /* width: 25%; */
+    border-left: 1px solid #ddd;
     z-index: 1;
   }
   .wrapper.no-nav:before {
@@ -11035,4 +11034,20 @@ iframe {
          .blue-button:hover {
   transform: scale(1.1); 
   transition: transform 500ms ease-out;
+}
+
+
+
+
+
+
+
+
+.login-page-form{
+  padding-left: 0 !important;
+}
+
+.hide-ckan{
+  position: absolute;
+  visibility: hidden !important;
 }

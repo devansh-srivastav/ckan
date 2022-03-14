@@ -1,7 +1,7 @@
 {% import 'macros/form.html' as form %}
 
 {% block package_basic_fields_title %}
-{{ form.input('title', id='field-title', label=_('Title'), placeholder=_('eg. A descriptive title'), value=data.title, error=errors.title, classes=['control-full', 'control-large'], attrs={'data-module': 'slug-preview-target', 'class': 'form-control'}) }}
+{{ form.input('title', id='field-title', label=_('Title'), placeholder=_('eg. A descriptive title'), value=data.title, error=errors.title, is_required=true, classes=['control-full', 'control-large'], attrs={'data-module': 'slug-preview-target', 'class': 'form-control'}) }}
 {% endblock %}
 
 {% block package_basic_fields_url %}
@@ -16,7 +16,7 @@
   {% block package_basic_fields_custom %}{% endblock %}
 
   {% block package_basic_fields_description %}
-  {{ form.markdown('notes', id='field-notes', label=_('Description'), placeholder=_('eg. Some useful notes about the data'), value=data.notes, error=errors.notes) }}
+  {{ form.markdown('notes', id='field-notes', label=_('Description'), placeholder=_('Beschreiben Sie das Dateisatz in 4-5 Sätzen, das hilft dem Endbenutzer, den Inhalt zu verstehen und eine Entscheidung zum Herunterladen zu treffen'), value=data.notes, error=errors.notes) }}
   {% endblock %}
 
   {% block package_basic_fields_tags %}
@@ -97,13 +97,13 @@
     {% if show_visibility_selector %}
     {% block package_metadata_fields_visibility %}
     <div class="form-group control-medium">
-      <label for="field-private" class="control-label">{{ _('Visibility') }}</label>
+      <!-- <label for="field-private" class="control-label">{{ _('Visibility') }}</label> -->
       <div class="controls">
-        <select id="field-private" name="private" class="form-control">
+        <!-- <select id="field-private" name="private" class="form-control" class="hide-ckan"> -->
           {% for option in [('False', _('Public'),('True', _('Private')))] %}
-          <option value="{{ option[0] }}" {% if option[0] == data.private|trim %}selected="selected"{% endif %}>{{ option[1] }}</option>
+          <!-- <option value="{{ option[0] }}" {% if option[0] == data.private|trim %}selected="selected"{% endif %}>{{ option[1] }}</option> -->
           {% endfor %}
-        </select>
+        <!-- </select> -->
       </div>
     </div>
     {% endblock %}
