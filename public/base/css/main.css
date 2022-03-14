@@ -8270,7 +8270,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
   /* border-bottom: 1px dotted #ddd; */
   padding: 20px;
   margin-bottom: 20px;
-  border: 1px solid #000000;
+  border: 1px solid #cccccc;
   border-radius: 10px;
 }
 @media (max-width: 991px) {
@@ -8311,6 +8311,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
 }
 .dataset-resources {
   margin-top: 8px;
+  margin-bottom: 10px;
 }
 .dataset-resources li {
   display: inline;
@@ -8402,7 +8403,7 @@ fieldset[disabled] .control-custom.disabled .checkbox.btn.focus {
 }
 .tag-list {
   padding-left: 0;
-  margin: 0;
+  margin: 25px 0;
   list-style: none;
   padding: 10px 10px 5px 10px;
 }
@@ -11050,4 +11051,8 @@ iframe {
 .hide-ckan{
   position: absolute;
   visibility: hidden !important;
+}
+
+.df-row{
+  float: left;
 }

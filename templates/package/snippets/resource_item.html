@@ -32,10 +32,10 @@
   {% block resource_item_explore %}
   {% if not url_is_edit %}
   <div class="dropdown btn-group">
-    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-      <i class="fa fa-share"></i>
-      {{ _('Explore') }}
-      <span class="caret"></span>
+    <a href="{{ res.url }}" class="btn btn-primary dropdown-toggle">
+      <i class="fa fa-arrow-circle-o-down"></i>
+      {{ _('Herunterladen') }}
+      <!-- <span class="caret"></span> -->
     </a>
     <ul class="dropdown-menu">
       {% block resource_item_explore_links %}

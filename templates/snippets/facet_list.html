@@ -72,7 +72,7 @@ Dictionary with search facets(or `c.search_facets` if not provided)
 						<a href="{{ href }}" title="{{ label if label != label_truncated else '' }}">
 						    <span class="item-label">{{ label_truncated }}</span>
 						    <span class="hidden separator"> - </span>
-						    <span class="item-count badge">{{ count }}</span>
+						    <span class="item-count">({{ count }})</span>
 						</a>
 					    </li>
 					{% endfor %}

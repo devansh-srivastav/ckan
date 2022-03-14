@@ -41,13 +41,20 @@
     <span class="insert-comment-thread"></span>
   {% endblock %}
 
+    {% block package_tags %}
+    {% snippet "package/snippets/tags.html", tags=pkg.tags %}
+    {% endblock %}
+
+{% block package_license %}
+{% snippet "snippets/license.html", pkg_dict=pkg %}
+{% endblock %}
+
+
   {% block package_resources %}
     {% snippet "package/snippets/resources_list.html", pkg=pkg, resources=pkg.resources, is_activity_archive=is_activity_archive %}
   {% endblock %}
 
-  {% block package_tags %}
-    {% snippet "package/snippets/tags.html", tags=pkg.tags %}
-  {% endblock %}
+
 
   {% block package_additional_info %}
     {% snippet "package/snippets/additional_info.html", pkg_dict=pkg %}
