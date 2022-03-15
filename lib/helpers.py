@@ -1259,7 +1259,7 @@ def get_facet_title(name):
         return config_title
 
     facet_titles = {'organization': _('Organizations'),
-                    'groups': _('Groups'),
+                    'groups': _('Kategorien'),
                     'tags': _('Tags'),
                     'res_format': _('Formats'),
                     'license': _('Licenses'), }
