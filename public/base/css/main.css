@@ -11133,18 +11133,11 @@ iframe {
   flex-direction: row-reverse;
 }
 
-h1.blue{
+        h1.blue{
             color:#0E0060
         }
 
-        /* body{
-            display:flex; 
-            flex-direction:column; 
-            height:100vh;
-            margin:0;
-        } */
-
-        .bayern-footer{
+        .bayern-footer {
             width:100%;
             min-height:100px;
             margin-top:60px;
@@ -11166,10 +11159,99 @@ h1.blue{
            margin:auto 10px;
         }
 
+        body {
+          display: table;
+          width: 100%; 
+        }
+        
+        html{ height:100%; }
+        
+        body { min-height:100%;  margin:0; }
 
+        body  .bayern-footer{
+          display: table-row;
+          table-layout: fixed;
+          width: 100%;  
+        }
+
+        body .main{
+          margin-bottom:60px;
+        }
+        .bayern-footer .footer-w{
+          width:100%;
+          display: table;
+          table-layout: fixed;
+        }
+        .bayern-footer .footer-inner{
+          max-width:1200px;
+          min-height:100px;
+          margin: auto;
+          background-color:#0E0060;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding-left:15px;
+          padding-right:15px;
+          color:white;
+      }
 
   .nav-search{
     border-radius: 30px;
   }
 
   @media(max-width:767px){ .vline::before{border-right:0px !important}}
+
+  @media(max-width:900px){
+     .bayern-footer .footer-inner{
+    max-width:1200px;
+    min-height:100px;
+    margin: auto;
+    background-color:#0E0060;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:15px;
+    padding-right:15px;
+    color:white;
+   }
+
+   .bayern-footer .footer-left {
+     max-width: 100%;
+     text-align: center;
+}
+
+
+}
+
+@media(max-width:600px){
+  .bayern-footer .footer-inner{
+ max-width:1200px;
+ min-height:100px;
+ margin: auto;
+ background-color:#0E0060;
+ display: flex;
+ flex-direction: column-reverse;
+ justify-content: space-evenly;
+ align-items: flex-start;
+ padding-left:15px;
+ padding-right:15px;
+ color:white;
+}
+
+.bayern-footer .footer-left {
+  max-width: 100%;
+}
+
+.bayern-footer .footer-right{
+display: flex;
+flex-direction:column;
+align-items:left;
+}
+
+.bayern-footer .footer-right svg{
+ margin:10px 0px
+  }
+
+}
