@@ -46,7 +46,11 @@ file.
         {% endblock %}
 
         <div
-            class="row {% block wrapper_class %}{% endblock %}{% if self.secondary()|trim == '' or c.action=='resource_read' %} no-nav{% endif %}">
+            class="row wrapper {% block wrapper_class %}{% endblock %}{% if self.secondary()|trim == '' or c.action=='resource_read' %} no-nav{% endif %}" style="
+    display: flex;
+    justify-content: center;
+">
+
             {% block primary %}
             <div class="col-sm-9 col-xs-12">
                 {#
@@ -95,21 +99,7 @@ file.
             {% endblock %}
 
             {% block secondary %}
-            <aside class="secondary col-sm-3">
-                {#
-                The secondary_content block can be used to add content to the
-                sidebar of the page. This is the main block that is likely to be
-                used within a template.
-
-                Example:
-
-                {% block secondary_content %}
-                <h2>A sidebar item</h2>
-                <p>Some content for the item</p>
-                {% endblock %}
-                #}
-                
-            </aside>
+            
             {% endblock %}
 
             
