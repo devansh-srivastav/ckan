@@ -1,4 +1,4 @@
-{% extends "page_used_copy.html" %}
+{% extends "page_used_copy_logout.html" %}
 
 {% block subtitle %}{{ _('Logged Out') }}{% endblock %}
 
@@ -12,3 +12,10 @@
     </div>
   </section>
 {% endblock %}
+
+<script>
+  
+      window.location.pathname = "/";
+   console.log("CKAN") ;
+  
+</script>

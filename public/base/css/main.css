@@ -6974,7 +6974,7 @@ a.tag:hover {
 }
 .pagination-wrapper {
   text-align: center;
-  border-top: 1px solid #eeeeee;
+  /* border-top: 1px solid #eeeeee; */
   padding-top: 10px;
 }
 .module h1 {
@@ -7376,8 +7376,8 @@ a.tag:hover {
 .nav-item.active > a,
 .nav-aside li.active a {
   position: relative;
-  color: #FFF;
-  background-color: #647A82;
+  color: #000;
+  background-color: #d8f0ff;
 }
 .nav-item.active > a:hover,
 .nav-aside li.active a:hover {
@@ -10004,6 +10004,7 @@ h4 small {
 .masthead .navigation .nav-pills li a:focus,
 .masthead .navigation .nav-pills li.active a {
   background-color: #f4faff;
+  font-weight: bold;
 }
 .masthead .nav > li > a,
 .masthead .nav > li > a:focus,
@@ -10936,7 +10937,7 @@ iframe {
 .landing-container{
              min-width:100%;
              margin:auto;
-             padding:52px;
+             /* padding:52px; */
              box-sizing: border-box;
              display: flex;
              min-height:calc(100vh - 250px);
@@ -11254,4 +11255,10 @@ align-items:left;
  margin:10px 0px
   }
 
+}
+
+.block-css{
+  pointer-events: none;
+  touch-action: none;
+  nav-index:"-1";
 }
