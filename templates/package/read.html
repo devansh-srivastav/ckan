@@ -19,6 +19,18 @@
         </div>
       {% endif %}
     {% endblock %}
+
+    {% if h.check_access('package_update', {'id':pkg.id }) %}
+      {% if not pkg_dict.groups %}
+        <div style="background:#d4edfc">
+            <h4 style="padding: 5px;"><i class="fa fa-info"></i>Dieser Datensatz ist noch keiner Kategorie zugeordnet.</h4>
+              {% link_for _('Kategorie zuzuweisen.'), named_route=dataset_type ~ '.groups', id=pkg.name%}
+
+        </div>
+        <br>
+      {% endif %}
+    {% endif %}
+
     <h1>
       {% block page_heading %}
         {{ h.dataset_display_name(pkg) }}
