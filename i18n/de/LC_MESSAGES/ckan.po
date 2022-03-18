@@ -972,7 +972,7 @@ msgstr "Organisationen"
 #: ckan/tests/config/test_middleware.py:120 ckan/views/dataset.py:285
 #: ckan/views/group.py:305 ckan/views/home.py:50
 msgid "Groups"
-msgstr "Gruppen"
+msgstr "Kategorien"
 
 #: ckan/controllers/group.py:319 ckan/controllers/home.py:63
 #: ckan/controllers/package.py:258 ckan/lib/helpers.py:1251
@@ -3290,7 +3290,7 @@ msgstr "Organisationen"
 
 #: ckan/templates/home/snippets/stats.html:23
 msgid "groups"
-msgstr "Gruppen"
+msgstr "Kategorien"
 
 #: ckan/templates/macros/form.html:54 ckan/templates/macros/form.html:287
 msgid "This field is required"

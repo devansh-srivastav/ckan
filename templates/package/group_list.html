@@ -11,7 +11,7 @@
           <option value="{{ option[0] }}"> {{ option[1] }}</option>
         {% endfor %}
       </select>
-      <button type="submit" style="margin-top: 15px;"class="btn btn-primary" title="{{ _('Associate this group with this dataset') }}">{{ _('Add to group') }}</button>
+      <button type="submit" style="margin-top: 15px;"class="btn btn-primary" title="{{ _('Associate this group with this dataset') }}">{{ _('Kategorie zuzuweisen') }}</button>
     </form>
   {% endif %}
 
@@ -20,7 +20,7 @@
       {% snippet 'group/snippets/group_list.html', groups=pkg_dict.groups %}
     </form>
   {% else %}
-    <p class="empty">{{ _('There are no groups associated with this dataset') }}</p>
+    <p class="empty">{{ _('There are no Es gibt keine Kategorie, die mit diesem Datensatz verbunden sind associated with this dataset') }}</p>
   {% endif %}
 
 {% endblock %}
