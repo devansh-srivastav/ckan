@@ -11262,3 +11262,7 @@ align-items:left;
   touch-action: none;
   nav-index:"-1";
 }
+
+.flt-r{
+  float: right;
+}
