@@ -1,14 +1,20 @@
-{% extends "page.html" %}
+{% extends "page_used_copy_logout.html" %}
 
 {% block subtitle %}{{ _('Logged Out') }}{% endblock %}
 
 {% block primary_content %}
   <section class="module">
     <div class="module-content">
-      <h1 class="page-heading">
+      <h1 class="page-heading" onload="console.log(2)">
       	{% block page_heading %}{{ _('Logged Out') }}{% endblock %}
       </h1>
       <p>{% trans %}You are now logged out.{% endtrans %}</p>
     </div>
   </section>
 {% endblock %}
+
+<script>
+  function myFunction() {
+    window.location.pathname = "/";
+  }
+</script>

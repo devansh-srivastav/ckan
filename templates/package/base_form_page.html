@@ -19,13 +19,20 @@
 {% block secondary_content %}
   {% block info_module %}
     <section class="module module-narrow module-shallow">
-      <h2 class="module-heading"><i class="fa fa-info-circle"></i> {{ _('What are datasets?') }}</h2>
+      <h2 class="module-heading"><i class="fa fa-info-circle"></i> {{ _('Tipp') }}</h2>
       <div class="module-content">
         <p>
           {% trans %}
-          Dataset is a collection of data resources (such as files),
-          together with a description and other information, at a fixed URL.
-          Datasets are what users see when searching for data.
+          <strong>Was sind Datensätze?</strong>
+          <p>Ein Datensatz ist eine Sammlung von Datenressourcen (z. B. Dateien) zusammen mit einer Beschreibung und anderen
+          Informationen unter einer festen URL. Datensätze sind das, was Benutzer sehen, wenn sie nach Daten suchen.</p>
+          <br>
+          <strong>Daten hinzufügen:</strong>
+          <p>Zu einem Datensatz können mehrere Daten mit offenen Dateiformaten hinterlegt werden.</p>
+          <br>
+          <strong>Mögliche Datenformate:</strong>
+          <p>csv, html, pdf, wms, gml, text/csv, GeoJSON, TIFF, GeoTIFF, KML, SHP, usw</p>
+
           {% endtrans %}
         </p>
       </div>
