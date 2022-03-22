@@ -11054,6 +11054,22 @@ iframe {
              transform: scale(1); 
              transition: transform 500ms ease-in-out;
          }
+         .blue-button2{
+             padding:0px 20px;
+             background: #0E0060;
+             border-radius: 10px;
+             color:white;
+             border:none;
+             /* display:flex; */
+             align-items:center;
+             transform: scale(1); 
+             transition: transform 500ms ease-in-out;
+             
+         }
+        .blue-button2 h3{
+         margin-top: 15px !important;
+             margin-bottom: 15px !important;
+        }
 
          .blue-buttonhover {
              transform: scale(1.1); 
