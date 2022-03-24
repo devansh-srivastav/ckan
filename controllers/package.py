@@ -254,7 +254,7 @@ class PackageController(base.BaseController):
 
             default_facet_titles = {
                 'organization': _('Organizations'),
-                'groups': _('Groups'),
+                'groups': _('Kategorien'),
                 'tags': _('Tags'),
                 'res_format': _('Formats'),
                 'license_id': _('Licenses'),

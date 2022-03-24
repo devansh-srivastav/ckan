@@ -40,8 +40,8 @@
         {% endblock %} {% block header_account_log_out_link %}
         <li>
           <a href="{{ h.url_for('/user/_logout') }}" title="{{ _('Log out') }}">
-            <span class="username" aria-hidden="true">Logout</span>
-            <span class="text">{{ _('Logout') }}</span>
+            <span class="username" aria-hidden="true">Abmelden</span>
+            <span class="text">{{ _('Abmelden') }}</span>
           </a>
         </li>
         {% endblock %} {% endblock %}
@@ -51,10 +51,10 @@
     <nav class="account not-authed" aria-label="{{ _('Account') }}">
       <ul class="list-unstyled">
         {% block header_account_notlogged %}
-        <li>{% link_for _('Login'), named_route='user.login' %}</li>
-        <!-- {% if h.check_access('user_create') %} -->
-        <!-- <li>{% link_for _('Register'), named_route='user.register', class_='sub' %}</li> -->
-        <!-- {% endif %} -->
+        <li>{% link_for _('Anmelden'), named_route='user.login' %}</li>
+        {% if h.check_access('user_create') %}
+        <li><a href=''><strong>Registrieren</strong></a></li>
+        {% endif %}
          {% endblock %}
       </ul>
     </nav>
