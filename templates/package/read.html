@@ -22,15 +22,15 @@
 
     {% if h.check_access('package_update', {'id':pkg.id }) %}
       {% if not pkg_dict.groups %}
-        <div style="background:#d4edfc;display: flex;
+        <div style="background:#FAE18D;display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 20px 20px;
     border-radius:4px">
             <h5 style="
             display: flex;
             align-items: center;
-        "><span style="padding: 3px 8px;background-color: black;color: #d4edfc;border-radius: 50%;font-size: 12px;margin-right: 5px;">i</span>Dieser Datensatz ist noch keiner Kategorie zugeordnet.</h5>
+        "><span style="padding: 3px 8px;background-color: black;color: #FAE18D;border-radius: 50%;font-size: 12px;margin-right: 16px;">i</span><strong>Fast Fertig!</strong><span>&nbsp;</span>Weisen Sie Ihrem Datensatz noch eine Kategorien zu:</h5>
               {% link_for _('Kategorie zuzuweisen'), named_route=dataset_type ~ '.groups',class_='btn btn-primary', id=pkg.name%}
 
         </div>
@@ -60,10 +60,6 @@
     <span class="insert-comment-thread"></span>
   {% endblock %}
 
-    {% block package_tags %}
-    {% snippet "package/snippets/tags.html", tags=pkg.tags %}
-    {% endblock %}
-
 {% block package_license %}
 {% snippet "snippets/license.html", pkg_dict=pkg %}
 {% endblock %}
@@ -73,7 +69,9 @@
     {% snippet "package/snippets/resources_list.html", pkg=pkg, resources=pkg.resources, is_activity_archive=is_activity_archive %}
   {% endblock %}
 
-
+{% block package_tags %}
+{% snippet "package/snippets/tags.html", tags=pkg.tags %}
+{% endblock %}
 
   {% block package_additional_info %}
     {% snippet "package/snippets/additional_info.html", pkg_dict=pkg %}

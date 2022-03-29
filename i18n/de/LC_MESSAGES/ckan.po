@@ -2490,7 +2490,7 @@ msgstr "Datei"
 #: ckan/public/base/javascript/modules/resource-reorder.js:42
 #: ckan/public/base/javascript/modules/resource-reorder.min.js:1
 msgid "Reorder resources"
-msgstr "Ressourcen neu ordnen"
+msgstr "Daten neu ordnen"
 
 #: ckan/public/base/javascript/modules/resource-reorder.js:43
 #: ckan/public/base/javascript/modules/resource-reorder.min.js:1

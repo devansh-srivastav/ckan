@@ -11316,3 +11316,8 @@ align-items:left;
 .flt-r{
   float: right;
 }
+
+.no-hover{
+  pointer-events: none;
+  touch-action: none;
+}
