@@ -80,7 +80,7 @@
     <div class="form-group control-medium">
       <label for="field-organizations" class="control-label">{{ _('Organization') }}</label>
       <div class="controls">
-        <select id="field-organizations" name="owner_org" data-module="autocomplete" class="block-css">
+        <select id="field-organizations" name="owner_org" data-module="autocomplete" class="">
           {% if h.check_config_permission('create_unowned_dataset') %}
           <option value="" {% if not selected_org and data.id %} selected="selected" {% endif %}>{{ _('No organization') }}</option>
           {% endif %}
