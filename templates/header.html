@@ -53,7 +53,7 @@
         {% block header_account_notlogged %}
         <li>{% link_for _('Anmelden'), named_route='user.login' %}</li>
         {% if h.check_access('user_create') %}
-        <li><a href='register.opendatabayern.de'><strong>Registrieren</strong></a></li>
+        <li><a href='https://register.opendatabayern.de'><strong>Registrieren</strong></a></li>
         {% endif %}
          {% endblock %}
       </ul>
