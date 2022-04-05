@@ -402,69 +402,69 @@ class DefaultLicense(dict):
 #     def title(self):
 #         return _("Inflow")
 
-class L0(DefaultLicense):
-    id = "L0"
-    url=''
+# class L0(DefaultLicense):
+#     id = "L0"
+#     url=''
 
-    @property
-    def title(self):
-        return _("License Nicht Angeben")
+#     @property
+#     def title(self):
+#         return _("License Nicht Angeben")
 
-class L1(DefaultLicense):
-    id = "L1"
-    url = ''
+# class L1(DefaultLicense):
+#     id = "L1"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Amtliches Werk, lizenzfrei nach §5 Abs. 1 UrhG")
+#     @property
+#     def title(self):
+#         return _("Amtliches Werk, lizenzfrei nach §5 Abs. 1 UrhG")
 
-class L2(DefaultLicense):
-    id = "L2"
-    url = ''
+# class L2(DefaultLicense):
+#     id = "L2"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Andere Freeware Lizenz")
+#     @property
+#     def title(self):
+#         return _("Andere Freeware Lizenz")
 
-class L3(DefaultLicense):
-    id = "L2"
-    url = ''
+# class L3(DefaultLicense):
+#     id = "L2"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Andere geschlossene Lizenz")
+#     @property
+#     def title(self):
+#         return _("Andere geschlossene Lizenz")
 
-class L4(DefaultLicense):
-    id = "L4"
-    url = ''
+# class L4(DefaultLicense):
+#     id = "L4"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Andere kommerzielle Lizenz")
+#     @property
+#     def title(self):
+#         return _("Andere kommerzielle Lizenz")
 
-class L5(DefaultLicense):
-    id = "L5"
-    url = ''
+# class L5(DefaultLicense):
+#     id = "L5"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Andere offene Lizenz")
+#     @property
+#     def title(self):
+#         return _("Andere offene Lizenz")
 
-class L6(DefaultLicense):
-    id = "L6"
-    url = ''
+# class L6(DefaultLicense):
+#     id = "L6"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Andere Open Source Lizenz")
+#     @property
+#     def title(self):
+#         return _("Andere Open Source Lizenz")
 
-class L7(DefaultLicense):
-    id = "L7"
-    url = ''
+# class L7(DefaultLicense):
+#     id = "L7"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("BSD Lizenz")
+#     @property
+#     def title(self):
+#         return _("BSD Lizenz")
 
 class L8(DefaultLicense):
     id = "L8"
@@ -498,53 +498,53 @@ class L11(DefaultLicense):
     def title(self):
         return _("Creative Commons Namensnennung — 4.0 International (CC BY 4.0)")
 
-class L12(DefaultLicense):
-    id = "L12"
-    url = ''
+# class L12(DefaultLicense):
+#     id = "L12"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Creative Commons Namensnennung - Keine Bearbeitung (CC BY-ND)")
+#     @property
+#     def title(self):
+#         return _("Creative Commons Namensnennung - Keine Bearbeitung (CC BY-ND)")
 
-class L13(DefaultLicense):
-    id = "L13"
-    url = ''
+# class L13(DefaultLicense):
+#     id = "L13"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Creative Commons Namensnennung -- Keine Bearbeitung 3.0 Unported (CC BY-ND 3.0)")
+#     @property
+#     def title(self):
+#         return _("Creative Commons Namensnennung -- Keine Bearbeitung 3.0 Unported (CC BY-ND 3.0)")
 
-class L14(DefaultLicense):
-    id = "L14"
-    url = ''
+# class L14(DefaultLicense):
+#     id = "L14"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Creative Commons Namensnennung - - Keine Bearbeitung 4.0 International (CC BY-ND 4.0)")
+#     @property
+#     def title(self):
+#         return _("Creative Commons Namensnennung - - Keine Bearbeitung 4.0 International (CC BY-ND 4.0)")
 
-class L15(DefaultLicense):
-    id = "L15"
-    url = ''
+# class L15(DefaultLicense):
+#     id = "L15"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC)")
+#     @property
+#     def title(self):
+#         return _("Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC)")
 
-class L16(DefaultLicense):
-    id = "L16"
-    url = ''
+# class L16(DefaultLicense):
+#     id = "L16"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Creative Commons Namensnennung-Nicht kommerziell 3.0 Deutschland (CC BY-NC 3.0 DE)")
+#     @property
+#     def title(self):
+#         return _("Creative Commons Namensnennung-Nicht kommerziell 3.0 Deutschland (CC BY-NC 3.0 DE)")
 
-class L17(DefaultLicense):
-    id = "L17"
-    url = ''
+# class L17(DefaultLicense):
+#     id = "L17"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Creative Commons Namensnennung - Nicht kommerziell 4.0 International (CC BY-NC 4.0)")
+#     @property
+#     def title(self):
+#         return _("Creative Commons Namensnennung - Nicht kommerziell 4.0 International (CC BY-NC 4.0)")
 
 class L18(DefaultLicense):
     id = "L18"
@@ -586,13 +586,13 @@ class L22(DefaultLicense):
     def title(self):
         return _("Datenlizenz Deutschland Namensnennung 2.0")
 
-class L23(DefaultLicense):
-    id = "L23"
-    url = ''
+# class L23(DefaultLicense):
+#     id = "L23"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Datenlizenz Deutschland Namensnennung nicht-kommerziell 1.0")
+#     @property
+#     def title(self):
+#         return _("Datenlizenz Deutschland Namensnennung nicht-kommerziell 1.0")
 
 class L24(DefaultLicense):
     id = "L24"
@@ -602,13 +602,13 @@ class L24(DefaultLicense):
     def title(self):
         return _("Datenlizenz Deutschland — Zero — Version 2.0")
 
-class L25(DefaultLicense):
-    id = "L25"
-    url = ''
+# class L25(DefaultLicense):
+#     id = "L25"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Freie Softwarelizenz der Apache Software Foundation")
+#     @property
+#     def title(self):
+#         return _("Freie Softwarelizenz der Apache Software Foundation")
 
 class L26(DefaultLicense):
     id = "L26"
@@ -626,29 +626,29 @@ class L27(DefaultLicense):
     def title(self):
         return _("GNU General Public License version 3.0 (GPLv3)")
 
-class L28(DefaultLicense):
-    id = "L28"
-    url = ''
+# class L28(DefaultLicense):
+#     id = "L28"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Mozilla Public License 2.0 (MPL)")
+#     @property
+#     def title(self):
+#         return _("Mozilla Public License 2.0 (MPL)")
 
-class L29(DefaultLicense):
-    id = "L29"
-    url = ''
+# class L29(DefaultLicense):
+#     id = "L29"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Nutzungsbestimmungen fur die Bereitstellung von Geodaten des Bundes")
+#     @property
+#     def title(self):
+#         return _("Nutzungsbestimmungen fur die Bereitstellung von Geodaten des Bundes")
 
-class L30(DefaultLicense):
-    id = "L30"
-    url = ''
+# class L30(DefaultLicense):
+#     id = "L30"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Nutzungsbestimmungen fur die Bereitstellung von Geodaten des Landes Berlin")
+#     @property
+#     def title(self):
+#         return _("Nutzungsbestimmungen fur die Bereitstellung von Geodaten des Landes Berlin")
 
 class L31(DefaultLicense):
     id = "L31"
@@ -674,10 +674,10 @@ class L33(DefaultLicense):
     def title(self):
         return _("Open Data Commons Public Domain Dedication and Licence (ODC PDDL)")
 
-class L34(DefaultLicense):
-    id = "L34"
-    url = ''
+# class L34(DefaultLicense):
+#     id = "L34"
+#     url = ''
 
-    @property
-    def title(self):
-        return _("Public Domain Mark 1.0 (PDM)")
+#     @property
+#     def title(self):
+#         return _("Public Domain Mark 1.0 (PDM)")
