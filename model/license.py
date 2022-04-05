@@ -498,53 +498,53 @@ class L11(DefaultLicense):
     def title(self):
         return _("Creative Commons Namensnennung — 4.0 International (CC BY 4.0)")
 
-# class L12(DefaultLicense):
-#     id = "L12"
-#     url = ''
+class L12(DefaultLicense):
+    id = "L12"
+    url = ''
 
-#     @property
-#     def title(self):
-#         return _("Creative Commons Namensnennung - Keine Bearbeitung (CC BY-ND)")
+    @property
+    def title(self):
+        return _("Creative Commons Namensnennung - Keine Bearbeitung (CC BY-ND)")
 
-# class L13(DefaultLicense):
-#     id = "L13"
-#     url = ''
+class L13(DefaultLicense):
+    id = "L13"
+    url = ''
 
-#     @property
-#     def title(self):
-#         return _("Creative Commons Namensnennung -- Keine Bearbeitung 3.0 Unported (CC BY-ND 3.0)")
+    @property
+    def title(self):
+        return _("Creative Commons Namensnennung -- Keine Bearbeitung 3.0 Unported (CC BY-ND 3.0)")
 
-# class L14(DefaultLicense):
-#     id = "L14"
-#     url = ''
+class L14(DefaultLicense):
+    id = "L14"
+    url = ''
 
-#     @property
-#     def title(self):
-#         return _("Creative Commons Namensnennung - - Keine Bearbeitung 4.0 International (CC BY-ND 4.0)")
+    @property
+    def title(self):
+        return _("Creative Commons Namensnennung - - Keine Bearbeitung 4.0 International (CC BY-ND 4.0)")
 
-# class L15(DefaultLicense):
-#     id = "L15"
-#     url = ''
+class L15(DefaultLicense):
+    id = "L15"
+    url = ''
 
-#     @property
-#     def title(self):
-#         return _("Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC)")
+    @property
+    def title(self):
+        return _("Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC)")
 
-# class L16(DefaultLicense):
-#     id = "L16"
-#     url = ''
+class L16(DefaultLicense):
+    id = "L16"
+    url = ''
 
-#     @property
-#     def title(self):
-#         return _("Creative Commons Namensnennung-Nicht kommerziell 3.0 Deutschland (CC BY-NC 3.0 DE)")
+    @property
+    def title(self):
+        return _("Creative Commons Namensnennung-Nicht kommerziell 3.0 Deutschland (CC BY-NC 3.0 DE)")
 
-# class L17(DefaultLicense):
-#     id = "L17"
-#     url = ''
+class L17(DefaultLicense):
+    id = "L17"
+    url = ''
 
-#     @property
-#     def title(self):
-#         return _("Creative Commons Namensnennung - Nicht kommerziell 4.0 International (CC BY-NC 4.0)")
+    @property
+    def title(self):
+        return _("Creative Commons Namensnennung - Nicht kommerziell 4.0 International (CC BY-NC 4.0)")
 
 class L18(DefaultLicense):
     id = "L18"
